@@ -2,7 +2,7 @@
 #!/usr/bin/env bash
 
 name=twistlock_authz_broker
-cp ./twistlock_authz_broker /usr/bin/
+cp ./authz-broker /usr/bin/
 
 cat <<SERVICE > "/lib/systemd/system/twistlock-authz.service"
 [Unit]
